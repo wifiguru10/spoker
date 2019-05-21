@@ -11,7 +11,8 @@ Spoker is a script that'll help configure Meraki Auto-VPN Spokes. The script wil
 # Use-Cases
 1. You have alot of spokes deployed, and you add a new hub or add an additional one
     -note: you'll just need a single tag for all your locations
-2. You want to load balance spokes geographically across multiple HUBS
+2. You want to load balance spokes geographically across multiple HUBS based on tags
+    -assign priority orders(123,321,213) to the TAGs (east,west,central,asia, etc)
 3. You want to migrate from FULL tunnel to Split or vice-versa
 
 
