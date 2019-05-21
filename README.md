@@ -3,6 +3,8 @@ Spoker is a script that'll help configure Meraki Auto-VPN Spokes. The script wil
 
 # How to run
 1. TAG all the networks in dashboard with "api_spoker" or customer tag (configurable in header of script)
+
+    -DONT tag any network that you don't plan on making changes to, you've been warned!
 2. Ensure the MX's site-to-site ruleset is configured in spoke mode (will bypass other modes)
 3. Configure header of script with org-id, API-key, HUBs and tags.
 4. Run script for it to fetch, query and configure all spoke networks.
