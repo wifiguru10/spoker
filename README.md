@@ -19,3 +19,4 @@ Spoker is a script that'll help configure Meraki Auto-VPN Spokes. The script wil
 # Gotchas
 1. Will not convert a network to a spoke network, the network must be in spoke mode with at least one network in VPN
 2. Script is a little slow, will be adding action-batches soon
+
